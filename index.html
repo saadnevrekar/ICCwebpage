@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ICC</title>
+	<link rel="stylesheet" href="project.css">
+</head>
+<style>
+	body{
+    margin: 1%;
+    padding: 1%;
+}
+
+header{
+    background-color: #0000ff;
+    background-image: url(black.png);
+    background-size: cover;
+    padding: 2% 3% 2% 3%;
+}
+
+h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 230%;
+}
+
+nav a{
+    display: inline-block;
+    width: 14%;
+    min-width: 65px;
+/*    best for zoom 100%*/
+    margin: 0 3% 2% 3%;
+/*    best for zoom 125%*/
+/*    margin: 0% 2% 2% 2.2%;*/
+    padding: 1.5%;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-weight: bold;
+}
+.active, a:hover{
+    color: #6c6cae;
+    background-color: #ffffff;
+}
+
+.left{
+    display: inline-block;
+    width: 18%;
+    height: 100vh;
+    float: left;
+    background-color: #4d5125;
+    overflow: auto;
+}
+
+.right{
+    display: inline-block;
+    width: 75%;
+    height: 100vh;
+    float: left;
+    margin-left: 1%;
+    overflow: auto;
+    font-size: xx-large;
+}
+
+img{
+    display: block;
+    width: 70%;
+    border: solid 2px #4d0a0a;
+    margin: 0 auto;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+</style>
+<body>
+	<header>
+		<h1>International Cricket Council</h1>
+		<nav>
+			<a href="https://en.wikipedia.org/wiki/International_Cricket_Council#History">History</a>
+			<a href="https://en.wikipedia.org/wiki/International_Cricket_Council#Members">Member</a>
+			<a href="https://en.wikipedia.org/wiki/International_Cricket_Council#Anti-corruption_and_security">Anti-corruption and security</a>
+			<a href="https://www.icc-cricket.com/news">News</a>
+		</nav>
+	</header>
+		<main>
+			<aside class = "left">
+				<a href="https://www.icc-cricket.com/about/events/icc-events/icc-champions-trophy"><img src="champion.jpg" alt="champion"></a>
+				<a href="https://www.icc-cricket.com/about/development"><img src="development.jpg" alt="development"></a>
+				<a href="https://www.icc-cricket.com/about/integrity/overview"><img src="integrity.jpg" alt="integrity"></a>
+			</aside>
+			<section class = "right">
+				<h2>About </h2>
+				<p>The International Cricket Council (ICC) is the global governing body of cricket. It was founded as the Imperial Cricket Conference in 1909 by representatives from Australia, England and South Africa. It was renamed as the International Cricket Conference in 1965, and adopted its current name in 1987. The ICC has its headquarters in Dubai, United Arab Emirates.</p>
+				<p>The ICC does not control bilateral fixtures between member countries (which include all Test matches), and neither does it govern domestic cricket within member countries. It does not make or alter the laws of the game, which have remained under the governance of the Marylebone Cricket Club since 1788</p>
+				<p></p>
+			</section>
+</main>
+</body>
+</html>
